@@ -18,6 +18,10 @@ Algorithms practice is based on tutorials from various sources, including:
 
 - [GeeksforGeeks.org](https://www.geeksforgeeks.org/)
 
+This repository also includes notes on documentation for Python libraries and frameworks, including:
+
+- [Django documentation](https://docs.djangoproject.com/en/5.0/intro/overview/)
+
 Many thanks to the authors who have generously made these resources available online.
 
 You can also find me on [CodeWars](https://www.codewars.com/users/chriscarrollsmith), where I practice Python along with several other languages:
