@@ -2,12 +2,12 @@
 
 The Internet is full of cool free Python resources! In this repository, I'll be learning algorithms, recording my solutions to some free practice problems, and taking notes on some free Python articles and books.
 
-In this repository, I am using `pipenv` for dependency and environment management. Just install pipenv, run `pipenv install` from the project root, and run `pipenv shell` to activate the environment. When running a Jupyter notebook, you should use the environment created by `pipenv` as your kernel.
+In this repository, I am using `pipenv` for dependency and environment management. Just install pipenv and run `pipenv install` from the project root. When running a Jupyter notebook, you should use the environment created by `pipenv` as your kernel.
 
 Practice problems come from the following sources:
 
-- [Project Euler](https://projecteuler.net/) - Interesting practice problem set that scales in difficulty; not very gamified
-- [The Python Challenge](http://www.pythonchallenge.com/) - Highly gamified and a lot of fun, but get very difficult very quickly!
+- [Project Euler](https://projecteuler.net/) - Interesting practice problem set that scales in difficulty; quite mathy, not very gamified
+- [The Python Challenge](http://www.pythonchallenge.com/) - Highly gamified and a lot of fun, but pretty difficult and maybe better suited to intermediate programmers than beginners
 
 Book notes come from the following resources:
 
