@@ -11,6 +11,7 @@ install = "*"
 requests = {extras = ["security"], version = "*"}
 cryptography = "*"
 certifi = "*"
+scipy = "*"
 
 [dev-packages]
 ipykernel = "*"
