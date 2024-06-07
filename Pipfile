@@ -13,6 +13,8 @@ cryptography = "*"
 certifi = "*"
 scipy = "*"
 pandas = "*"
+tabulate = "*"
+opencv-python = "*"
 
 [dev-packages]
 ipykernel = "*"

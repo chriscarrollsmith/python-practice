@@ -2,3 +2,7 @@
 .venv
 .env
 venv
+
+# opencv files
+test.mov
+frames
