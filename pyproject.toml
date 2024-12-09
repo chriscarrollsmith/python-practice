@@ -1,0 +1,17 @@
+[project]
+name = "python-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=44.0.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.3",
+    "numpy>=2.2.0",
+    "opencv-python>=4.10.0.84",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "scipy>=1.14.1",
+    "tabulate>=0.9.0",
+]
