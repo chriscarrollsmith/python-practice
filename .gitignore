@@ -4,5 +4,4 @@
 venv
 
 # opencv files
-test.mov
-frames
+files/
