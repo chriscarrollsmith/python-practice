@@ -22,6 +22,12 @@ def omit_fields(model_class: Type[BaseModel], exclude_fields: Set[str]) -> Type[
     Similar to TypeScript's Omit<Type, Keys> utility type.
     """
     original_fields = model_class.model_fields
+    
+    # Validate that all exclude_fields exist in the original model
+    invalid_fields = exclude_fields - set(original_fields.keys())
+    if invalid_fields:
+        raise ValueError(f"Fields {invalid_fields} do not exist in {model_class.__name__}")
+    
     new_fields = {}
 
     for field_name, field_info in original_fields.items():
@@ -38,6 +44,12 @@ def pick_fields(model_class: Type[BaseModel], include_fields: Set[str]) -> Type[
     Similar to TypeScript's Pick<Type, Keys> utility type.
     """
     original_fields = model_class.model_fields
+    
+    # Validate that all include_fields exist in the original model
+    invalid_fields = include_fields - set(original_fields.keys())
+    if invalid_fields:
+        raise ValueError(f"Fields {invalid_fields} do not exist in {model_class.__name__}")
+    
     new_fields = {}
     
     for field_name, field_info in original_fields.items():
